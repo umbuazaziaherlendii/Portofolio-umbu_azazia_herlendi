@@ -67,7 +67,7 @@ section {
 }
 
 #project-page header {
-    background: #444;
+    background: #e5dede;
 }
 
 #home {
@@ -79,8 +79,8 @@ section {
 }
 
 #projects {
-    background-color: #c5c4c5;
-    padding: 80px 20px 20px;
+    background-color: #f3f1f3;
+    padding: 40px 20px 20px;
 }
 
 #contact {
@@ -135,8 +135,8 @@ h1, h2 {
 
 .card-img-top {
     border-radius: 8px 8px 0 0;
-    object-fit: cover;
-    height: 200px;
+    object-fit: contain;
+    height: 100px;
 }
 
 .card-title {
@@ -177,6 +177,11 @@ h1, h2 {
 .certificate-card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
+}
+
+.projects {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 
